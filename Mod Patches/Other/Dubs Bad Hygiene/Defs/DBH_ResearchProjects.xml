@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>KobeRiddle_SimpleWaterworks</defName>
+        <label>simple waterworks</label>
+        <description>Store water in open tubs.</description>
+        <baseCost>250</baseCost>
+        <techLevel>Neolithic</techLevel>
+        <tags>
+            <li>TribalStart</li>
+            <li>ClassicStart</li>
+        </tags>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef DBHLite="true">
+        <defName>KobeRiddle_SimpleHygiene</defName>
+        <label>simple hygiene</label>
+        <tab>DubsBadHygiene</tab>
+        <description>Use latrines to establish a basic level of hygiene.</description>
+        <baseCost>100</baseCost>
+        <prerequisites>
+            <li>KobeRiddle_SimpleWaterworks</li>
+        </prerequisites>
+        <techLevel>Neolithic</techLevel>
+        <tags>
+            <li>TribalStart</li>
+            <li>ClassicStart</li>
+        </tags>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef DBHLite="true">
+        <defName>KobeRiddle_PrimitiveWell</defName>
+        <label>primitive well</label>
+        <tab>DubsBadHygiene</tab>
+        <description>Use a hand-operated well to pull water from the ground.</description>
+        <baseCost>100</baseCost>
+        <prerequisites>
+            <li>KobeRiddle_SimpleWaterworks</li>
+        </prerequisites>
+        <techLevel>Neolithic</techLevel>
+        <tags>
+            <li>TribalStart</li>
+            <li>ClassicStart</li>
+        </tags>
+    </ResearchProjectDef>
+
+</Defs>

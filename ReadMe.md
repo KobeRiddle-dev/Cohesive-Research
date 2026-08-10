@@ -2,7 +2,6 @@
 
 - [Cohesive Research: A Stepping Stones Project](#cohesive-research-a-stepping-stones-project)
     - [Overview](#overview)
-    - [New Research Projects](#new-research-projects)
     - [Mod Patches](#mod-patches)
         - [Vanilla Expanded](#vanilla-expanded)
             - [VFE Classical](#vfe-classical)
@@ -18,16 +17,6 @@
 
 ## Overview
 Cohesive Research is a collection of patches in the vein of [Research Reinvented: Stepping Stones](https://steamcommunity.com/sharedfiles/filedetails/?id=2868389782), increasing cohesiveness and compatibility with Stepping Stones' more individualized research projects.
-
-## New Research Projects
-
-Each new research project will only be added if it is required by a [Mod Patch](#mod-patches).
-
-- Glass Blowing <- Smithing (Core)
-- Simple Hygiene <- Simple Waterworks (Cohesive Research)
-- Simple Waterworks <- Structures (RR: Stepping Stones), Simple Furniture (RR: Stepping Stones)
-- Complex Hygiene <- Plumbing (Dubs Bad Hygiene)
-- Complex Waterworks <- Plumbing (Dubs Bad Hygiene)
 
 ## Mod Patches
 
@@ -79,6 +68,10 @@ Things:
 
 - Transparent Fine Tile, Transparent Substructure, Sky Tile, Fine Sky Tile, Heavy Transparent Bridge <- Glass Blowing (Cohesive Research)
 
+New Research Projects:
+
+- Glass Blowing <- Smithing (Core)
+
 ## Planned Changes
 
 ### Dubs' Bad Hygiene
@@ -105,6 +98,14 @@ Research Projects:
 
 - Plumbing <- Simple Waterworks (Cohesive Research), Smithing (Core)
 - Water Heating <- Simple Waterworks (Cohesive Research), Fire (RR: Stepping Stones)
+
+New Research Projects:
+
+- Simple Hygiene <- Simple Waterworks (Cohesive Research)
+- Simple Waterworks <- Structures (RR: Stepping Stones), Simple Furniture (RR: Stepping Stones)
+- Complex Hygiene <- Plumbing (Dubs Bad Hygiene)
+- Complex Waterworks <- Plumbing (Dubs Bad Hygiene)
+
 
 ### VE Cooking
 

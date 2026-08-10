@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="PrimitiveWell"]</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>KobeRiddle_PrimitiveWell</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+            defName="WashBucket"
+            or defName="WaterTrough"
+            ]</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>KobeRiddle_SimpleWaterworks</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+            defName="PitLatrine"
+            or defName="ToiletStallDoor"
+            ]</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>KobeRiddle_SimpleHygiene</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+</Patch>

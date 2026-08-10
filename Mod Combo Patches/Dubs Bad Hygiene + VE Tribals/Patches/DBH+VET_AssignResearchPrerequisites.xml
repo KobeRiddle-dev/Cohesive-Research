@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ResearchProjectDef[defName="KobeRiddle_SimpleWaterworks"]</xpath>
+        <value>
+            <prerequisites>
+                <li>VFET_Furniture</li>
+            </prerequisites>
+        </value>
+    </Operation>
+
+</Patch>

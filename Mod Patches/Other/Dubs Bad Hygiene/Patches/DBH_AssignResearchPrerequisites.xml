@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- This has to be done here, in case VE Tribals is loaded -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ResearchProjectDef[defName="RR_BasicFurniture"]</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ResearchProjectDef[defName="KobeRiddle_SimpleWaterworks"]</xpath>
+            <value>
+                <prerequisites>
+                    <li>RR_BasicFurniture</li>
+                </prerequisites>
+            </value>
+        </match>
+    </Operation>
+
+</Patch>

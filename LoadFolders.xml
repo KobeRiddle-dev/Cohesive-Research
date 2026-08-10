@@ -1,8 +1,10 @@
 <loadFolders>
+    <!-- Remember that loadFolders loads things bottom-up, so combo patches should be listed first, in order to be executed last -->
     <v1.6>
         <li>/</li>
-        <!-- Conditional Defs -->
-        <li IfModActive="Aelanna.TransparentSubstructure,Dubwise.DubsSkylights">Conditional Defs/Glass Blowing</li>
+
+        <!-- Combo Patches -->
+        <li IfModActiveAll="Dubwise.DubsBadHygiene, OskarPotocki.VFE.Tribals">Mod Combo Patches/Dubs Bad Hygiene + VE Tribals</li>
 
         <!-- VE -->
         <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/VE/VFE Classical</li>
@@ -12,5 +14,9 @@
         <li IfModActive="Ferny.ProgressionProduction">Mod Patches/Progression/Progression Production</li>
         <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Other/Transparent Substructure</li>
         <li IfModActive="Dubwise.DubsBadHygiene">Mod Patches/Other/Dubs Bad Hygiene</li>
+
+        <!-- Conditional Defs -->
+        <li IfModActive="Aelanna.TransparentSubstructure,Dubwise.DubsSkylights">Conditional Defs/Glass Blowing</li>
+
     </v1.6>
 </loadFolders>

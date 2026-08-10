@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- RR:SS does this on its own, but we're doing it again here in case we need to update anything that loaded between RR:SS and this mod -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/*/researchPrerequisites/li[text()="RR_Fire"]</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/*/researchPrerequisites/li[text()="RR_Fire"]</xpath>
+            <value>
+                <li>VFET_Fire</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/*/researchPrerequisites/li[text()="RR_Agriculture"]</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/*/researchPrerequisites/li[text()="RR_Agriculture"]</xpath>
+            <value>
+                <li>VFET_Cultivation</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/*/researchPrerequisites/li[text()="RR_BasicMeleeWeapons"]</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/*/researchPrerequisites/li[text()="RR_BasicMeleeWeapons"]</xpath>
+            <value>
+                <li>VFET_Weapons</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/*/researchPrerequisites/li[text()="RR_BasicRangedWeapons"]</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/*/researchPrerequisites/li[text()="RR_BasicRangedWeapons"]</xpath>
+            <value>
+                <li>VFET_Bow</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/*/researchPrerequisites/li[text()="RR_BasicHerbLore"]</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/*/researchPrerequisites/li[text()="RR_BasicHerbLore"]</xpath>
+            <value>
+                <li>VFET_Medicine</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/*/researchPrerequisites/li[text()="RR_BasicFurniture"]</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/*/researchPrerequisites/li[text()="RR_BasicFurniture"]</xpath>
+            <value>
+                <li>VFET_Furniture</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/*/researchPrerequisites/li[text()="RR_BasicStructures"]</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/*/researchPrerequisites/li[text()="RR_BasicStructures"]</xpath>
+            <value>
+                <li>VFET_Construction</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/*/researchPrerequisites/li[text()="RR_Trapping"]</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/*/researchPrerequisites/li[text()="RR_Trapping"]</xpath>
+            <value>
+                <li>VFET_Hunting</li>
+            </value>
+        </match>
+    </Operation>
+</Patch>
