@@ -19,4 +19,23 @@
         <li IfModActive="Aelanna.TransparentSubstructure,Dubwise.DubsSkylights">Conditional Defs/Glass Blowing</li>
 
     </v1.6>
+    <v1.7>
+        <li>/</li>
+
+        <!-- Combo Patches -->
+        <li IfModActiveAll="Dubwise.DubsBadHygiene, OskarPotocki.VFE.Tribals">Mod Combo Patches/Dubs Bad Hygiene + VE Tribals</li>
+
+        <!-- VE -->
+        <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/VE/VFE Classical</li>
+        <li IfModActive="OskarPotocki.VFE.Tribals">Mod Patches/VE/VFE Tribals</li>
+
+        <!-- Other -->
+        <li IfModActive="Ferny.ProgressionProduction">Mod Patches/Progression/Progression Production</li>
+        <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Other/Transparent Substructure</li>
+        <li IfModActive="Dubwise.DubsBadHygiene">Mod Patches/Other/Dubs Bad Hygiene</li>
+
+        <!-- Conditional Defs -->
+        <li IfModActive="Aelanna.TransparentSubstructure,Dubwise.DubsSkylights">Conditional Defs/Glass Blowing</li>
+
+    </v1.7>
 </loadFolders>
