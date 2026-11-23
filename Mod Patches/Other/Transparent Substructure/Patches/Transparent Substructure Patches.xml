@@ -18,15 +18,23 @@
         </value>
     </Operation>
 
-    <!-- Bridge: append glass to existing prerequisites -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/TerrainDef[
-            defName="TransparentFoundation_HeavyBridge"
-            ]/researchPrerequisites
-        </xpath>
-        <value>
-            <li>KobeRiddle_GlassBlowing</li>
-        </value>
+    <!-- Bridge: append glass to existing prerequisites, if any -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/TerrainDef[defName="TransparentFoundation_HeavyBridge"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="TransparentFoundation_HeavyBridge"]/researchPrerequisites</xpath>
+            <value>
+                <li>KobeRiddle_GlassBlowing</li>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="TransparentFoundation_HeavyBridge"]</xpath>
+            <value>
+                <researchPrerequisites>
+                    <li>KobeRiddle_GlassBlowing</li>
+                </researchPrerequisites>
+            </value>
+        </nomatch>
     </Operation>
 
 </Patch>
